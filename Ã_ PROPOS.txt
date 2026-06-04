@@ -1,0 +1,63 @@
+À PROPOS
+Zoé Giles — Étudiante en BUT GEA 2ème année, parcours Gestion et Pilotage des Ressources Humaines (GPRH), IUT Nancy-Charlemagne, Université de Lorraine. Stage de 8 semaines réalisé au sein du département Ressources Humaines de Safran Engineering Services, Hambourg, Allemagne — avril à juin 2026.
+
+MES MISSIONS
+Audit égalité de genre
+Collecte et analyse de données internes (répartition F/H, écarts de rémunération, taux de promotion), benchmark sectoriel avec Airbus, comparaison avec les statistiques européennes (EIGE) et allemandes (Bundesagentur für Arbeit). Présentation utilisée lors d'un audit interne de direction.
+Regard critique : mission qui m'a appris à travailler avec des données hétérogènes et à construire un argumentaire objectif sur un sujet sensible. La difficulté était de ne pas minimiser des chiffres parfois défavorables tout en les contextualisant honnêtement.
+Enquête EVREST sur les risques psychosociaux
+Pilotage complet du déploiement du questionnaire EVREST sur le site : adaptation au contexte local, stratégie de diffusion (QR code pour les blue collars sans accès PC), communication interne, analyse des résultats, formulation de recommandations.
+Regard critique : ma mission la plus formatrice. Gérer un projet de A à Z avec de vraies contraintes terrain, notamment trouver comment inclure des collaborateurs sans accès informatique, m'a appris que les meilleures solutions naissent souvent des obstacles.
+Guide congés parentaux
+Rédaction en allemand d'un guide d'information sur les nouvelles directives groupe concernant les congés parentaux et les avantages sociaux. Envoi postal à l'ensemble des bénéficiaires en congé parental.
+Regard critique : mission en apparence administrative, mais qui demandait une vraie rigueur juridique et rédactionnelle dans une langue étrangère. J'ai compris que derrière chaque document RH, il y a un salarié qui l'attend.
+Analyses Power BI — absentéisme et productivité
+Extraction et nettoyage des données Solar, conception de tableaux de bord sur Power BI (765 jours d'absence analysés, vues par collaborateur et par mois), avec pour objectif à terme d'alimenter un modèle d'IA prédictive porté par le responsable RH du site.
+Regard critique : prise en main d'un outil que je ne connaissais pas, apprentissage par la pratique. J'ai réalisé à quel point les données sont un levier de crédibilité pour la fonction RH.
+Chatbot RH et automatisation des courriers
+Déploiement d'un chatbot RH sur SharePoint (base documentaire tripartite : groupe / filiale / site), mise en place d'une signature automatique de redirection. Développement en collaboration avec un interne en cybersécurité d'un script de génération automatique de lettres de bonus (50 courriers en quelques secondes contre plusieurs jours auparavant).
+Regard critique : ces deux projets m'ont confirmé que la digitalisation RH n'est pas une fin en soi, c'est un moyen de recentrer les équipes sur ce qui a vraiment de la valeur.
+
+RESSOURCES DE FORMATION MOBILISÉES
+Cours IUT utilisés :
+
+Droit social et droit du travail → compréhension du cadre légal allemand (Betriebsverfassungsgesetz, Entgelttransparenzgesetz), adaptation aux spécificités du Betriebsrat
+Gestion des ressources humaines → conduite de l'enquête EVREST, politique QVT, égalité professionnelle
+Traitement numérique des données (R4.04) → exploitation de Power BI, nettoyage de données Solar
+Communication professionnelle → rédaction du guide en allemand, communications internes
+Anglais appliqué aux affaires → langue de travail quotidienne sur le site
+
+Compétences personnelles mobilisées :
+
+Pratique de l'anglais et de l'allemand en contexte professionnel
+Capacité d'adaptation à un environnement multiculturel
+Autonomie et prise d'initiative dans un service à effectif réduit
+
+Nouvelles compétences acquises en entreprise :
+
+Power BI (apprentissage par la pratique et tutoriels)
+Scripting pour automatisation documentaire (collaboration interdisciplinaire avec un profil tech)
+Connaissance du droit du travail allemand et des relations sociales en contexte germanique
+Gestion de projet de A à Z (enquête EVREST)
+
+
+ÉVALUATION PERSONNELLE DU STAGE
+Oui, je pense avoir réussi ce stage. Les projets qui m'ont été confiés ont tous abouti à des livrables concrets utilisés par l'équipe : la présentation d'audit, l'enquête déployée, le guide envoyé, les tableaux de bord intégrés au reporting, le chatbot en production et le script fonctionnel. Ce ne sont pas des travaux qui ont fini dans un tiroir.
+Ce que je referais différemment : j'aurais pris des notes plus systématiques dès le début, notamment sur les échanges avec le Betriebsrat, qui constituent une dimension très riche à analyser et que j'ai un peu sous-documentée sur le moment. J'aurais aussi proposé plus tôt de structurer le travail autour d'une problématique claire, plutôt que d'attendre que celle de l'automatisation s'impose naturellement.
+
+RETOUR SUR LES 5 COMPÉTENCES DU BUT GPRH
+Compétence 1 — Analyser les processus de l'organisation dans son environnement
+Niveau atteint : avancé
+Exemple : analyse de la structure Safran (groupe / filiale / site), compréhension du CODI, cartographie des outils RH (Solar, Twist, Hansalog, eTalent, 360 Learning). Benchmark sectoriel sur l'égalité de genre avec Airbus et les données européennes.
+Compétence 2 — Aider à la prise de décision
+Niveau atteint : intermédiaire à avancé
+Exemple : les tableaux de bord Power BI ont directement alimenté les réunions de direction RH. Les recommandations issues de l'enquête EVREST ont orienté les priorités QVT du site. La présentation d'audit a nourri une décision de direction.
+Compétence 3 — Piloter les relations avec les parties prenantes
+Niveau atteint : intermédiaire
+Exemple : coordination avec la responsable RH du site de Loches pour le chatbot, collaboration avec un interne en cybersécurité à Berlin, communications internes à destination de managers et collaborateurs de profils très différents (white collars / blue collars). Interactions régulières avec le Betriebsrat dans le cadre des projets numériques.
+Compétence 4 — Gérer l'administration du personnel
+Niveau atteint : intermédiaire
+Exemple : gestion des listes de bénéficiaires en congé parental, envoi postal du guide, utilisation de Solar et Hansalog, compréhension du processus de paie et des déclarations sociales en contexte allemand.
+Compétence 5 — Gérer le développement des ressources humaines
+Niveau atteint : avancé
+Exemple : pilotage complet de l'enquête EVREST (outil de QVT et de développement RH), déploiement du chatbot comme outil d'amélioration de l'expérience collaborateur, automatisation des processus RH comme levier de recentrage sur les missions à valeur ajoutée. Vision portée sur la RH prédictive via Power BI et IA.

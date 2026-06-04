@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoé Giles — Portfolio Professionnel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">ZG</span>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#missions">Missions</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#bilan">Bilan</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="burger" aria-label="Menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-mobile" id="navMobile">
+      <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+      <li><a href="#missions" onclick="toggleMenu()">Missions</a></li>
+      <li><a href="#competences" onclick="toggleMenu()">Compétences</a></li>
+      <li><a href="#bilan" onclick="toggleMenu()">Bilan</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Stage RH · Safran Engineering Services · Hambourg</p>
+      <h1 class="hero-name">Zoé Giles</h1>
+      <p class="hero-subtitle">Étudiante BUT GEA — Gestion et Pilotage des Ressources Humaines</p>
+      <p class="hero-school">IUT Nancy-Charlemagne · Université de Lorraine</p>
+      <div class="hero-ctas">
+        <a href="#missions" class="btn btn-primary">Voir mes missions</a>
+        <a href="#bilan" class="btn btn-outline">Mon bilan de stage</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <span class="section-tag">À propos</span>
+          <h2>Une approche RH <em>ancrée dans le terrain</em></h2>
+          <p>
+            Étudiante en 2ème année de BUT GEA, parcours GPRH, j'ai réalisé un stage de 8 semaines au sein du département Ressources Humaines de <strong>Safran Engineering Services</strong> à Hambourg, en Allemagne, d'avril à juin 2026.
+          </p>
+          <p>
+            Ce stage m'a permis de piloter des projets RH concrets — de l'audit égalité de genre à la digitalisation des processus — dans un contexte multiculturel et en langue étrangère. Chaque livrable produit est aujourd'hui utilisé par l'équipe.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Projets livrés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Semaines de stage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">765</span>
+            <span class="stat-label">Jours d'absence analysés</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">50</span>
+            <span class="stat-label">Courriers automatisés</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSIONS -->
+  <section id="missions" class="section section-missions">
+    <div class="container">
+      <span class="section-tag">Mes missions</span>
+      <h2>Ce que j'ai réalisé <em>concrètement</em></h2>
+
+      <div class="missions-list">
+
+        <!-- Mission 1 -->
+        <article class="mission-card" data-index="01">
+          <div class="mission-header">
+            <div class="mission-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+            </div>
+            <div>
+              <span class="mission-num">01</span>
+              <h3>Audit égalité de genre</h3>
+            </div>
+          </div>
+          <p class="mission-desc">
+            Collecte et analyse de données internes (répartition F/H, écarts de rémunération, taux de promotion), benchmark sectoriel avec Airbus, comparaison avec les statistiques européennes (EIGE) et allemandes (Bundesagentur für Arbeit). Présentation utilisée lors d'un audit interne de direction.
+          </p>
+          <blockquote class="mission-critique">
+            <strong>Regard critique —</strong> Mission qui m'a appris à travailler avec des données hétérogènes et à construire un argumentaire objectif sur un sujet sensible. La difficulté était de ne pas minimiser des chiffres parfois défavorables tout en les contextualisant honnêtement.
+          </blockquote>
+          <div class="mission-tags">
+            <span class="tag">Analyse de données</span>
+            <span class="tag">Benchmark sectoriel</span>
+            <span class="tag">Présentation direction</span>
+          </div>
+        </article>
+
+        <!-- Mission 2 -->
+        <article class="mission-card featured" data-index="02">
+          <div class="mission-header">
+            <div class="mission-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <div>
+              <span class="mission-num">02</span>
+              <h3>Enquête EVREST — Risques psychosociaux</h3>
+            </div>
+          </div>
+          <div class="featured-badge">Mission phare</div>
+          <p class="mission-desc">
+            Pilotage complet du déploiement du questionnaire EVREST sur le site : adaptation au contexte local, stratégie de diffusion (QR code pour les blue collars sans accès PC), communication interne, analyse des résultats, formulation de recommandations.
+          </p>
+          <blockquote class="mission-critique">
+            <strong>Regard critique —</strong> Ma mission la plus formatrice. Gérer un projet de A à Z avec de vraies contraintes terrain, notamment trouver comment inclure des collaborateurs sans accès informatique, m'a appris que les meilleures solutions naissent souvent des obstacles.
+          </blockquote>
+          <div class="mission-tags">
+            <span class="tag">Gestion de projet</span>
+            <span class="tag">QVT</span>
+            <span class="tag">Communication interne</span>
+            <span class="tag">Recommandations</span>
+          </div>
+        </article>
+
+        <!-- Mission 3 -->
+        <article class="mission-card" data-index="03">
+          <div class="mission-header">
+            <div class="mission-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            </div>
+            <div>
+              <span class="mission-num">03</span>
+              <h3>Guide congés parentaux</h3>
+            </div>
+          </div>
+          <p class="mission-desc">
+            Rédaction en allemand d'un guide d'information sur les nouvelles directives groupe concernant les congés parentaux et les avantages sociaux. Envoi postal à l'ensemble des bénéficiaires en congé parental.
+          </p>
+          <blockquote class="mission-critique">
+            <strong>Regard critique —</strong> Mission en apparence administrative, mais qui demandait une vraie rigueur juridique et rédactionnelle dans une langue étrangère. J'ai compris que derrière chaque document RH, il y a un salarié qui l'attend.
+          </blockquote>
+          <div class="mission-tags">
+            <span class="tag">Rédaction en allemand</span>
+            <span class="tag">Droit social</span>
+            <span class="tag">Administration du personnel</span>
+          </div>
+        </article>
+
+        <!-- Mission 4 -->
+        <article class="mission-card" data-index="04">
+          <div class="mission-header">
+            <div class="mission-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M17 17.5v-3m0 3h-3m3 0h3"/></svg>
+            </div>
+            <div>
+              <span class="mission-num">04</span>
+              <h3>Analyses Power BI — Absentéisme & Productivité</h3>
+            </div>
+          </div>
+          <p class="mission-desc">
+            Extraction et nettoyage des données Solar, conception de tableaux de bord sur Power BI (765 jours d'absence analysés, vues par collaborateur et par mois), avec pour objectif à terme d'alimenter un modèle d'IA prédictive porté par le responsable RH du site.
+          </p>
+          <blockquote class="mission-critique">
+            <strong>Regard critique —</strong> Prise en main d'un outil que je ne connaissais pas, apprentissage par la pratique. J'ai réalisé à quel point les données sont un levier de crédibilité pour la fonction RH.
+          </blockquote>
+          <div class="mission-tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">Data cleaning</span>
+            <span class="tag">Reporting RH</span>
+            <span class="tag">IA prédictive</span>
+          </div>
+        </article>
+
+        <!-- Mission 5 -->
+        <article class="mission-card" data-index="05">
+          <div class="mission-header">
+            <div class="mission-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/></svg>
+            </div>
+            <div>
+              <span class="mission-num">05</span>
+              <h3>Chatbot RH & Automatisation des courriers</h3>
+            </div>
+          </div>
+          <p class="mission-desc">
+            Déploiement d'un chatbot RH sur SharePoint (base documentaire tripartite : groupe / filiale / site). Développement en collaboration avec un interne en cybersécurité d'un script de génération automatique de lettres de bonus — <strong>50 courriers en quelques secondes</strong> contre plusieurs jours auparavant.
+          </p>
+          <blockquote class="mission-critique">
+            <strong>Regard critique —</strong> Ces deux projets m'ont confirmé que la digitalisation RH n'est pas une fin en soi, c'est un moyen de recentrer les équipes sur ce qui a vraiment de la valeur.
+          </blockquote>
+          <div class="mission-tags">
+            <span class="tag">SharePoint</span>
+            <span class="tag">Chatbot</span>
+            <span class="tag">Scripting</span>
+            <span class="tag">Digitalisation RH</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="competences" class="section section-competences">
+    <div class="container">
+      <span class="section-tag">Compétences</span>
+      <h2>Ce que j'ai <em>mobilisé et acquis</em></h2>
+
+      <div class="competences-grid">
+
+        <div class="comp-block">
+          <h3>Cours IUT mobilisés</h3>
+          <ul class="comp-list">
+            <li>
+              <span class="comp-dot"></span>
+              <div>
+                <strong>Droit social et droit du travail</strong>
+                <p>Compréhension du cadre légal allemand (Betriebsverfassungsgesetz, Entgelttransparenzgesetz), adaptation aux spécificités du Betriebsrat</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot"></span>
+              <div>
+                <strong>Gestion des ressources humaines</strong>
+                <p>Conduite de l'enquête EVREST, politique QVT, égalité professionnelle</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot"></span>
+              <div>
+                <strong>Traitement numérique des données (R4.04)</strong>
+                <p>Exploitation de Power BI, nettoyage de données Solar</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot"></span>
+              <div>
+                <strong>Communication professionnelle</strong>
+                <p>Rédaction du guide en allemand, communications internes</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot"></span>
+              <div>
+                <strong>Anglais appliqué aux affaires</strong>
+                <p>Langue de travail quotidienne sur le site</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="comp-block">
+          <h3>Compétences personnelles</h3>
+          <div class="skill-pills">
+            <span class="pill">Anglais professionnel</span>
+            <span class="pill">Allemand professionnel</span>
+            <span class="pill">Adaptation multiculturelle</span>
+            <span class="pill">Autonomie</span>
+            <span class="pill">Prise d'initiative</span>
+          </div>
+
+          <h3 style="margin-top: 2rem;">Nouvelles compétences acquises</h3>
+          <ul class="comp-list">
+            <li>
+              <span class="comp-dot accent"></span>
+              <div>
+                <strong>Power BI</strong>
+                <p>Apprentissage par la pratique et tutoriels</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot accent"></span>
+              <div>
+                <strong>Scripting pour automatisation documentaire</strong>
+                <p>Collaboration interdisciplinaire avec un profil tech</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot accent"></span>
+              <div>
+                <strong>Droit du travail allemand</strong>
+                <p>Relations sociales en contexte germanique</p>
+              </div>
+            </li>
+            <li>
+              <span class="comp-dot accent"></span>
+              <div>
+                <strong>Gestion de projet end-to-end</strong>
+                <p>Enquête EVREST pilotée de A à Z</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BILAN -->
+  <section id="bilan" class="section section-bilan">
+    <div class="container">
+      <span class="section-tag">Bilan</span>
+      <h2>Mon évaluation <em>personnelle</em></h2>
+
+      <div class="bilan-intro">
+        <p>
+          Oui, je pense avoir réussi ce stage. Les projets qui m'ont été confiés ont tous abouti à des livrables concrets utilisés par l'équipe : la présentation d'audit, l'enquête déployée, le guide envoyé, les tableaux de bord intégrés au reporting, le chatbot en production et le script fonctionnel. <strong>Ce ne sont pas des travaux qui ont fini dans un tiroir.</strong>
+        </p>
+        <p class="bilan-retro">
+          <strong>Ce que je referais différemment —</strong> J'aurais pris des notes plus systématiques dès le début, notamment sur les échanges avec le Betriebsrat. J'aurais aussi proposé plus tôt de structurer le travail autour d'une problématique claire, plutôt que d'attendre que celle de l'automatisation s'impose naturellement.
+        </p>
+      </div>
+
+      <h3 class="competences-but-title">Retour sur les 5 compétences BUT GPRH</h3>
+      <div class="competences-but">
+
+        <div class="but-card">
+          <div class="but-level advanced">Avancé</div>
+          <span class="but-num">C1</span>
+          <h4>Analyser les processus de l'organisation</h4>
+          <p>Analyse de la structure Safran (groupe/filiale/site), cartographie des outils RH (Solar, Twist, Hansalog, eTalent, 360 Learning), benchmark sectoriel sur l'égalité de genre avec Airbus et les données européennes.</p>
+        </div>
+
+        <div class="but-card">
+          <div class="but-level inter-advanced">Intermédiaire à avancé</div>
+          <span class="but-num">C2</span>
+          <h4>Aider à la prise de décision</h4>
+          <p>Les tableaux de bord Power BI ont directement alimenté les réunions de direction RH. Les recommandations EVREST ont orienté les priorités QVT. La présentation d'audit a nourri une décision de direction.</p>
+        </div>
+
+        <div class="but-card">
+          <div class="but-level intermediate">Intermédiaire</div>
+          <span class="but-num">C3</span>
+          <h4>Piloter les relations avec les parties prenantes</h4>
+          <p>Coordination avec le site de Loches, collaboration avec un interne en cybersécurité à Berlin, communications internes vers managers et collaborateurs (white collars / blue collars), interactions avec le Betriebsrat.</p>
+        </div>
+
+        <div class="but-card">
+          <div class="but-level intermediate">Intermédiaire</div>
+          <span class="but-num">C4</span>
+          <h4>Gérer l'administration du personnel</h4>
+          <p>Gestion des listes de bénéficiaires en congé parental, envoi postal du guide, utilisation de Solar et Hansalog, compréhension du processus de paie et des déclarations sociales en contexte allemand.</p>
+        </div>
+
+        <div class="but-card">
+          <div class="but-level advanced">Avancé</div>
+          <span class="but-num">C5</span>
+          <h4>Gérer le développement des RH</h4>
+          <p>Pilotage EVREST (QVT), déploiement du chatbot (expérience collaborateur), automatisation comme levier de recentrage sur les missions à valeur ajoutée, vision RH prédictive via Power BI et IA.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <span class="section-tag">Contact</span>
+      <h2>Travaillons <em>ensemble</em></h2>
+      <p class="contact-intro">Étudiante en BUT GEA GPRH, ouverte aux opportunités de stage, alternance ou projet collaboratif dans le domaine des Ressources Humaines.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>zoe.giles@etudiant.univ-lorraine.fr</span>
+        </div>
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <span>Nancy, France</span>
+        </div>
+        <div class="contact-card">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          <span>IUT Nancy-Charlemagne · BUT GEA GPRH</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Zoé Giles · Portfolio professionnel BUT GEA GPRH</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
