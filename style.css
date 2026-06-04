@@ -12,8 +12,6 @@
   --muted:    #7a96b4;
   --accent:   #0066cc;
   --accent2:  #4da6ff;
-  --rose:     #e8557a;
-  --rose2:    #f28fab;
   --gold:     #d4a853;
   --green:    #3db87a;
   --yellow:   #e9b84a;
@@ -75,7 +73,7 @@ strong { font-weight: 600; }
   padding: 6rem 2rem 4rem;
   background:
     radial-gradient(ellipse 60% 50% at 30% 0%, rgba(0,102,204,.22) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 40% at 75% 10%, rgba(232,85,122,.18) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 75% 10%, rgba(0,102,204,.12) 0%, transparent 60%),
     var(--bg);
   position: relative; overflow: hidden;
 }
@@ -87,13 +85,13 @@ strong { font-weight: 600; }
 .hero-content { position: relative; max-width: 700px; }
 .hero-tag {
   display: inline-block; font-size: .8rem; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--rose2); border: 1px solid rgba(232,85,122,.35);
+  color: var(--accent2); border: 1px solid rgba(0,102,204,.4);
   padding: .35rem 1rem; border-radius: 100px; margin-bottom: 1.5rem;
 }
 .hero-name {
   font-family: var(--font-serif); font-size: clamp(3rem, 8vw, 5.5rem);
   font-weight: 700; line-height: 1.05; margin-bottom: .75rem;
-  background: linear-gradient(135deg, #fff 15%, var(--accent2) 55%, var(--rose));
+  background: linear-gradient(135deg, #fff 20%, var(--accent2));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
 .hero-subtitle { font-size: 1.15rem; color: var(--text); margin-bottom: .4rem; }
@@ -169,11 +167,11 @@ strong { font-weight: 600; }
   padding: 2rem; position: relative; transition: border-color .25s, transform .25s;
 }
 .mission-card:hover { border-color: rgba(0,102,204,.55); transform: translateX(4px); }
-.mission-card.featured { border-color: rgba(232,85,122,.45); background: linear-gradient(135deg, rgba(232,85,122,.07), var(--bg2)); }
+.mission-card.featured { border-color: rgba(0,102,204,.45); background: linear-gradient(135deg, rgba(0,102,204,.08), var(--bg2)); }
 
 .featured-badge {
   position: absolute; top: 1.5rem; right: 1.5rem;
-  background: var(--rose); color: #fff; font-size: .7rem;
+  background: var(--accent); color: #fff; font-size: .7rem;
   font-weight: 600; padding: .3rem .8rem; border-radius: 100px; letter-spacing: .05em;
 }
 
@@ -190,12 +188,12 @@ strong { font-weight: 600; }
 .mission-desc strong { color: var(--text); }
 
 .mission-critique {
-  border-left: 3px solid var(--rose); padding: .8rem 1rem;
-  background: rgba(232,85,122,.06); border-radius: 0 8px 8px 0;
+  border-left: 3px solid var(--accent); padding: .8rem 1rem;
+  background: rgba(0,102,204,.07); border-radius: 0 8px 8px 0;
   color: var(--muted); font-size: .88rem; line-height: 1.65; margin-bottom: 1.2rem;
   font-style: italic;
 }
-.mission-critique strong { color: var(--rose2); font-style: normal; }
+.mission-critique strong { color: var(--accent2); font-style: normal; }
 
 .mission-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
 .tag {
@@ -223,8 +221,8 @@ strong { font-weight: 600; }
 
 .skill-pills { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1.5rem; }
 .pill {
-  background: rgba(232,85,122,.12); border: 1px solid rgba(232,85,122,.35);
-  color: var(--rose2); font-size: .82rem; padding: .4rem .9rem; border-radius: 100px;
+  background: rgba(0,102,204,.13); border: 1px solid rgba(0,102,204,.35);
+  color: var(--accent2); font-size: .82rem; padding: .4rem .9rem; border-radius: 100px;
 }
 
 @media (max-width: 768px) { .competences-grid { grid-template-columns: 1fr; } }
