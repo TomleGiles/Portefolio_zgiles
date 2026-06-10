@@ -253,7 +253,7 @@
             <li>
               <span class="comp-dot"></span>
               <div>
-                <strong>Traitement numérique des données / EGRH (R4.04)</strong>
+                <strong>Traitement numérique des données / EGRH · tableau de bord sociaux (R4.04)</strong>
                 <p>Exploitation de Power BI, tableaux de bord sociaux, nettoyage de données Solar</p>
               </div>
             </li>
@@ -377,9 +377,9 @@
         <div class="but-bar-row">
           <span class="but-bar-label"><span class="but-bar-code c4">C4</span> Gérer l'administration du personnel</span>
           <div class="but-bar-track">
-            <div class="but-bar-fill c4-fill" style="--pct: 42%"></div>
+            <div class="but-bar-fill c4-fill" style="--pct: 62%"></div>
           </div>
-          <span class="but-bar-pct">42%</span>
+          <span class="but-bar-pct">62%</span>
         </div>
         <div class="but-bar-row">
           <span class="but-bar-label"><span class="but-bar-code c5">C5</span> Gérer le développement des RH</span>
@@ -451,6 +451,12 @@
           <span>IUT Nancy-Charlemagne · BUT GEA GPRH</span>
         </div>
       </div>
+      <div class="contact-qr">
+        <a href="https://www.linkedin.com/in/zo%C3%A9-giles-06427a2b2/" target="_blank" rel="noopener" class="contact-qr-link">
+          <div id="linkedin-qr"></div>
+          <span class="contact-qr-label">Mon LinkedIn</span>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -460,5 +466,16 @@
   </footer>
 
   <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script>
+    new QRCode(document.getElementById('linkedin-qr'), {
+      text: 'https://www.linkedin.com/in/zo%C3%A9-giles-06427a2b2/',
+      width: 140,
+      height: 140,
+      colorDark: '#1a1a2e',
+      colorLight: '#ffffff',
+      correctLevel: QRCode.CorrectLevel.M
+    });
+  </script>
 </body>
 </html>

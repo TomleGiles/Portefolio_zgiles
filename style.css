@@ -318,6 +318,36 @@ strong { font-weight: 600; }
 .contact-card:hover { border-color: var(--accent); }
 .contact-card svg { width: 20px; height: 20px; color: var(--accent2); flex-shrink: 0; }
 
+.contact-qr {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.contact-qr-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .75rem;
+  text-decoration: none;
+}
+.contact-qr-link #linkedin-qr {
+  padding: 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(124,106,245,.25);
+  transition: transform .2s, box-shadow .2s;
+}
+.contact-qr-link:hover #linkedin-qr {
+  transform: scale(1.04);
+  box-shadow: 0 6px 28px rgba(124,106,245,.4);
+}
+.contact-qr-label {
+  font-size: .85rem;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
 /* ===========================
    FOOTER
 =========================== */
