@@ -31,3 +31,12 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.12 });
 
 fadeEls.forEach(el => observer.observe(el));
+
+// Animate BUT chart bars on scroll
+const barFills = document.querySelectorAll('.but-bar-fill');
+const barObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('animated'); barObserver.unobserve(e.target); }
+  });
+}, { threshold: 0.3 });
+barFills.forEach(el => barObserver.observe(el));

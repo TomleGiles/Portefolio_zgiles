@@ -263,6 +263,43 @@ strong { font-weight: 600; }
 .but-card h4 { font-size: .95rem; font-weight: 600; color: var(--text); margin-bottom: .6rem; }
 .but-card p { font-size: .85rem; color: var(--muted); line-height: 1.6; }
 
+/* BUT chart (PPTX bars) */
+.but-chart {
+  background: var(--bg3); border: 1px solid var(--line); border-radius: 16px;
+  padding: 2rem 2.5rem; margin-bottom: 3rem; display: flex; flex-direction: column; gap: 1.4rem;
+}
+.but-bar-row { display: grid; grid-template-columns: 1fr 2fr auto; align-items: center; gap: 1rem; }
+.but-bar-label { font-size: .85rem; color: var(--text); display: flex; align-items: center; gap: .6rem; }
+.but-bar-code {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; border-radius: 50%; font-size: .75rem; font-weight: 700;
+  flex-shrink: 0; color: #fff;
+}
+.but-bar-code.c1 { background: #3a7bd5; }
+.but-bar-code.c2 { background: #2ecc71; }
+.but-bar-code.c3 { background: #1abc9c; }
+.but-bar-code.c4 { background: #e67e22; }
+.but-bar-code.c5 { background: #9b59b6; }
+.but-bar-track {
+  background: var(--bg2); border-radius: 999px; height: 14px; overflow: hidden;
+}
+.but-bar-fill {
+  height: 100%; border-radius: 999px; width: 0;
+  transition: width 1s ease;
+}
+.but-bar-fill.c1-fill { background: #3a7bd5; }
+.but-bar-fill.c2-fill { background: #2ecc71; }
+.but-bar-fill.c3-fill { background: #1abc9c; }
+.but-bar-fill.c4-fill { background: #e67e22; }
+.but-bar-fill.c5-fill { background: #9b59b6; }
+.but-bar-fill.animated { width: var(--pct); }
+.but-bar-pct { font-size: .85rem; font-weight: 600; color: var(--accent2); min-width: 36px; text-align: right; }
+@media (max-width: 768px) {
+  .but-chart { padding: 1.5rem; }
+  .but-bar-row { grid-template-columns: 1fr; gap: .4rem; }
+  .but-bar-pct { text-align: left; }
+}
+
 /* ===========================
    CONTACT
 =========================== */
